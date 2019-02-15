@@ -18,7 +18,7 @@ $python3 mov-sub-changer.py
 ```
 Input path of directory: ~/Movies/Holly
 ```
-3. Voila! the script will walk down to all sudirectories in the specified path to identify the movie files & change the names of corresponding subtitle files. 
+3. Voila! the script will walk down to all subdirectories in the specified path to identify the movie files & change the names of corresponding subtitle files. 
 ##### Optional parameter:
 You can also specify minimum movie size (in MBs) while running the script, e.g.:
 ```
