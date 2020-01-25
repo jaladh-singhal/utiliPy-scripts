@@ -3,13 +3,13 @@ import re, sys
 
 # Input through Command line arguments
 if len(sys.argv)<2:
-    print('Also give a PDF filepath on which script will work')
+    print('Also give a PDF filepath on which script will work\n')
     exit(1)
 else:
-    in_fpath= int(sys.argv[1])
+    in_fpath= sys.argv[1]
 
 if len(sys.argv)==3: # To give output file path
-	out_fpath = int(sys.argv[2])
+	out_fpath = sys.argv[2]
 else:   # Replace the same file
 	out_fpath = in_fpath
 
