@@ -9,6 +9,6 @@ Following are the scripts that I cared to make presentable :sweat_smile:, hoping
 
 :computer_mouse: [Colour & Coordinate Picker](Color%20Coordinate%20Picker) - Display the coordinates & color of any pixel of the screen, where mouse is pointing to!
 
-:tv: [Movie Subtitle Filename Changer](https://github.com/jaladh-singhal/utiliPy-scripts/tree/master/Movie%20Subtitle%20Filename%20Changer) - Changes the subtitle filenames to same as corresponding movie filenames so that subtitle file is automatically added while playing movie.
+:tv: [Movie Subtitle Filename Changer](Movie%20Subtitle%20Filename%20Changer) - Changes the subtitle filenames to same as corresponding movie filenames so that subtitle file is automatically added while playing movie.
 
-:scissors: [PDF Trimmer](https://github.com/jaladh-singhal/utiliPy-scripts/tree/master/PDF%20Trimmer) - Deletes pages from a PDF with redundant content (most likely, due to being generated from a presentation with animated slides)
+:scissors: [PDF Trimmer](PDF%20Trimmer) - Deletes pages from a PDF with redundant content (most likely, due to being generated from a presentation with animated slides)
