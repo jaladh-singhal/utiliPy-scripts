@@ -16,7 +16,7 @@ else:   # Replace the same file
 
 # Initialize PDF reader & writer objects
 infile = PyPDF2.PdfFileReader(in_fpath, 'rb') 
-output = PyPDF2.PdfFileWriter()
+out_file = PyPDF2.PdfFileWriter()
 
 # To extract text from a PDF page
 def extract_text(pageObj):
@@ -40,7 +40,7 @@ for pgNo in range(1, infile.numPages):
 for pgNo in range(infile.numPages):
     if pgNo not in del_pages:
         pg = infile.getPage(pgNo)
-        output.addPage(pg)
+        out_file.addPage(pg)
   
 with open('newfile.pdf', 'wb') as f:
-    output.write(f)
+    out_file.write(f)
