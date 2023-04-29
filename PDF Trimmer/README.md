@@ -22,6 +22,16 @@ Make sure you have installed `PyPDF2` in your python environment. If not, simply
 ```
 pip install PyPDF2
 ```
+**Note**: As of April 29th, 2023, PdfFileReader had been removed from PyPDF2 3.0.0.
+
+One hacky workaround until this is fixed is to use virtual environment:
+```
+python -m venv venv     # Set up virtual environment "venv"
+source venv/bin/activate    # Enter virtual environment.
+pip install PyPDF2=2.12.1   # Install an old version of PyPDF2
+python pdf_trimmer.py ~/Downloads/so_bulky.pdf light_as_feather.pdf
+deactivate              # Should you wish to leave the virtual environment.
+```
 
 ## Why I needed to create something like this/ Why you may need it?
 I was taking a Statistics course on Coursera and they have this option to download the slides being used in videos as PDFs. Hence these PDFs had this problem because of the animations in slides as I explained above. But not any longer!
